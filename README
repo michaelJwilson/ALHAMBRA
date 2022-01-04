@@ -1,0 +1,90 @@
+ID                         ID            ID
+objID                      ID            ID
+Field                      Number        Field
+Pointing                   Number        Pointing
+CCD                        CCD           CCD
+RA         		   Deg           Right ascension   
+DEC	  		   Deg	         Declination       
+x	   		   x		 x-pixel coordinate
+y	   		   y		 y-pixel coordinate	
+Area	   		   pixels	 Isophotal aperture area 
+FWHM	   		   arcsec	 FWHM for detection image
+Stell	   		   Number	 SExtractor stellarity (1 = star; 0 = galaxy)
+Ell	   		   Number	 Ellipticity = 1 - B/A
+a	   		   pixels	 Profile RMS along major axis 
+b	   		   pixels	 Profile RMS along minor axis (pixels)
+rk	   		   pixels	 Position Angle (CCW/x)
+rf	   		   pixels	 Fraction-of-light radii (pixels)
+s2n	   		   Number	 Signal-to-Noise (SExt_FLUX_AUTO/SExt_FLUXERR_AUTO)
+photoflag  		   Number	 SExtractor Photometric Flag
+F365W	   		   mags		 Isophotal magnitude [AB];  Filter:  CAHA/ALHAMBRA.F365W;  Magnitude type: pogson;  Zero Point type: AB.
+dF365W	   		   mags		 Isophotal magnitude uncertainty [AB] 
+F396W	   		   mags		 Isophotal magnitude [AB]		  	   
+dF396W	   		   mags		 Isophotal magnitude uncertainty [AB] 
+F427W  	   		   mags		 Isophotal magnitude [AB]
+dF427W 	   		   mags		 Isophotal magnitude uncertainty [AB]
+F458W 	   		   mags		 Isophotal magnitude [AB]	   
+dF458W 	   		   mags		 Isophotal magnitude uncertainty [AB]
+F489W  	   		   mags		 Isophotal magnitude [AB]
+dF489W     		   mags		 Isophotal magnitude uncertainty [AB]
+F520W  	   		   mags		 Isophotal magnitude [AB]
+dF520W     		   mags		 Isophotal magnitude uncertainty [AB]
+F551W  	   		   mags		 Isophotal magnitude [AB]
+dF551W 	   		   mags		 Isophotal magnitude uncertainty [AB]
+F582W  	   		   mags		 Isophotal magnitude [AB]
+dF582W 	   		   mags		 Isophotal magnitude uncertainty [AB]
+F613W  	   		   mags		 Isophotal magnitude [AB]
+dF613W 	   		   mags		 Isophotal magnitude uncertainty [AB]
+F644W  	   		   mags		 Isophotal magnitude [AB]
+dF644W 	   		   mags		 Isophotal magnitude uncertainty [AB]
+F675W  	   		   mags		 Isophotal magnitude [AB]
+dF675W     		   mags		 Isophotal magnitude uncertainty [AB]
+F706W  	   		   mags		 Isophotal magnitude [AB]
+dF706W     		   mags		 Isophotal magnitude uncertainty [AB]
+F737W  	   		   mags		 Isophotal magnitude [AB]
+dF737W     		   mags		 Isophotal magnitude uncertainty [AB]
+F768W  	   		   mags		 Isophotal magnitude [AB]
+dF768W     		   mags		 Isophotal magnitude uncertainty [AB]
+F799W  	   		   mags		 Isophotal magnitude [AB]
+dF799W     		   mags		 Isophotal magnitude uncertainty [AB]	
+F830W  	   		   mags		 Isophotal magnitude [AB]
+dF830W     		   mags		 Isophotal magnitude uncertainty [AB]
+F861W  	  		   mags		 Isophotal magnitude [AB]
+dF861W     		   mags		 Isophotal magnitude uncertainty [AB]
+F892W  	   		   mags		 Isophotal magnitude [AB]
+dF892W     		   mags		 Isophotal magnitude uncertainty [AB]
+F923W  	   		   mags	         Isophotal magnitude [AB]
+dF923W     		   mags		 Isophotal magnitude uncertainty [AB]	
+F954W  	   		   mags		 Isophotal magnitude [AB]	   
+dF954W     		   mags	         Isophotal magnitude uncertainty [AB]		   
+J  	   		   mags		 Isophotal magnitude uncertainty [AB]
+dJ  	   		   mags		 Isophotal magnitude uncertainty [AB]
+H  	   		   mags		 Isophotal magnitude uncertainty [AB]
+dH  	   		   mags		 Isophotal magnitude uncertainty [AB]
+KS  	   		   mags		 Isophotal magnitude uncertainty [AB]
+dKS  	   		   mags		 Isophotal magnitude uncertainty [AB]
+F814W  	   		   mags		 Isophotal magnitude uncertainty [AB]
+dF814W     		   mags		 Isophotal magnitude uncertainty [AB]
+F814W_3arcs  		   mags		 Isophotal magnitude uncertainty [AB]
+dF814W_3arcs  		   mags		 Isophotal magnitude uncertainty [AB]
+F814W_3arcs_corr  	   mags		 Unknown
+nfobs  			   Number	 Number Filters Detected (out of 24) 
+xray  			   Bool		 X-Ray Source [0:NO, 1:YES] (2XMM;Watson et al. 2009;A&A493,339-373)
+PercW  			   Number	 Percentual Photometric Weight (on detection image)
+Satur_Flag  		   Bool		 Photometric Saturation-Flag [0:  Good Detection, 1:  Saturated Detection]
+Stellar_Flag  		   Bool		 Statistical STAR/GALAXY Discriminator [0:  Pure-Galaxy, 0.5:  Unknown, 1:  Pure-Star]
+zb_1  			   Double	 BPZ most likely redshift for the First Peak
+zb_min_1  		   Double	 Lower limit (95p confidence) for the First Peak
+zb_max_1  		   Double	 Upper limit (95p confidence) for the First Peak
+tb_1  			   Integer	 BPZ most likely spectral type for the First Peak
+Odds_1  		   Double	 P(z) contained within zb +/- 2*0.01*(1+z) for the First Peak
+Chi2  			   Double	 Poorness of BPZ fit: observed vs. model fluxes
+Stell_Mass_1 		   Double	 Stellar Mass for the First Peak (log10(M_sun))
+M_ABS_1 		   mags		 Absolute Magnitude [AB] (B_JOHNSON) for the First Peak
+irms_OPT_Flag 		   Integer	 Optical-Quality-Flag. Number of Optical Filters with PercW < 0.8
+irms_NIR_Flag  		   Integer	 NIR-Quality-Flag. Number of NIR Filters with PercW < 0.8
+ra_xypx                    Unknown       Unknown
+dec_xypx		   Unknown	 Unknown
+ra_aipx			   Unknown	 Unknown
+dec_aipx		   Unknown	 Unknown
+F814W_Image		   Unknown	 Unknown
